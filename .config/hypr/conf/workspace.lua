@@ -1,7 +1,7 @@
--- Assigning workspace to a certain monitor. Below are just examples
--- hl.workspace({ id = 1, monitor = "eDP-1" })
--- hl.workspace({ id = 2, monitor = "eDP-1" })
--- hl.workspace({ id = 3, monitor = "eDP-1" })
+-- Assigning workspace to a certain monitor
+hl.workspace({ id = 1, monitor = "DP-3" })
+hl.workspace({ id = 2, monitor = "DP-2" })
+hl.workspace({ id = 3, monitor = "DP-1" })
 -- hl.workspace({ id = 4, monitor = "eDP-1" })
 -- hl.workspace({ id = 5, monitor = "DP-2" })
 -- hl.workspace({ id = 6, monitor = "DP-2" })

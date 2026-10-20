@@ -67,8 +67,7 @@ fi
 
 if [[ "$1" == "suspend" ]]; then
 	echo ":: Suspend"
-	sleep 0.5
-	systemctl suspend
+    hyprlock & sleep 1 ; systemctl suspend
 fi
 
 if [[ "$1" == "hibernate" ]]; then

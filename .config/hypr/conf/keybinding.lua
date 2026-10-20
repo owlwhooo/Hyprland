@@ -5,11 +5,11 @@ hl.var("mainMod", "SUPER") -- Sets "Windows" key as main modifier
 hl.bind({ mods = "$mainMod", key = "RETURN", dispatcher = "exec", params = "$terminal" })
 hl.bind({ mods = "$mainMod", key = "Q", dispatcher = "killactive" })
 hl.bind({ mods = "$mainMod", key = "M", dispatcher = "exit" })
--- hl.bind({ mods = "$mainMod", key = "E", dispatcher = "exec", params = "$fileManager" })
+hl.bind({ mods = "$mainMod SHIFT", key = "E", dispatcher = "exec", params = "$fileManager" })
 hl.bind({ mods = "$mainMod", key = "V", dispatcher = "togglefloating" })
 hl.bind({ mods = "$mainMod", key = "E", dispatcher = "exec", params = "$menu" })
 hl.bind({ mods = "$mainMod", key = "P", dispatcher = "pseudo" }) -- dwindle
-hl.bind({ mods = "$mainMod", key = "J", dispatcher = "togglesplit" }) -- dwindle
+-- hl.bind({ mods = "$mainMod", key = "J", dispatcher = "togglesplit" }) -- dwindle
 hl.bind({ mods = "$mainMod", key = "F", dispatcher = "fullscreenstate", params = "2 -1" })
 
 -- Move focus with mainMod + arrow keys

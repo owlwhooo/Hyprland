@@ -1,8 +1,7 @@
 hl.config({
     dwindle = {
         -- Master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds
-        pseudotile = true,
-        -- You probably want this
+        -- pseudotile = true,
         preserve_split = true
     },
 
