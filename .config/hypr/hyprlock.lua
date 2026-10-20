@@ -1,0 +1,22 @@
+-- Data-only config for hyprlock.
+-- hyprlock cannot read Lua; a generator script should render this table to hyprlock.conf.
+
+return {
+    background = {
+        monitor = "",
+        path = "~/.config/hypr/backgrounds/sylvanas1.jpg",
+        color = "0xff000000", -- Optional background color
+        blur_passes = 0,
+        size = "100%"
+    },
+
+    input_field = {
+        size = "200, 50",
+        outline_thickness = 2,
+        dots_size = 0.2,
+        dots_spacing = 0.2,
+        fade_on_empty = true,
+        -- placeholder_text = "Password"
+        hide_input = false
+    }
+}

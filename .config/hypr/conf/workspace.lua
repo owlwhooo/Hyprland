@@ -1,0 +1,18 @@
+-- Assigning workspace to a certain monitor. Below are just examples
+-- hl.workspace({ id = 1, monitor = "eDP-1" })
+-- hl.workspace({ id = 2, monitor = "eDP-1" })
+-- hl.workspace({ id = 3, monitor = "eDP-1" })
+-- hl.workspace({ id = 4, monitor = "eDP-1" })
+-- hl.workspace({ id = 5, monitor = "DP-2" })
+-- hl.workspace({ id = 6, monitor = "DP-2" })
+-- hl.workspace({ id = 7, monitor = "DP-2" })
+-- hl.workspace({ id = 8, monitor = "DP-2" })
+
+-- Example rules (from https://wiki.hyprland.org/Configuring/Workspace-Rules/)
+-- hl.workspace({ id = 3, rounding = false, decorate = false })
+-- hl.workspace({ id = "coding", rounding = false, decorate = false, gapsin = 0, gapsout = 0, border = false, monitor = "DP-1" })
+-- hl.workspace({ id = 8, bordersize = 8 })
+-- hl.workspace({ id = "Hello", monitor = "DP-1", default = true })
+-- hl.workspace({ id = "gaming", monitor = "desc:Chimei Innolux Corporation 0x150C", default = true })
+-- hl.workspace({ id = 5, on_created_empty = "[float] firefox" })
+-- hl.workspace({ id = "special:scratchpad", on_created_empty = "foot" })
